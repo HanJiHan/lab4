@@ -1,0 +1,35 @@
+﻿Сборка начата 01.06.2017 12:06:04.
+     1>Проект "e:\Программирование\ИТЕРАТОР\ИТЕРАТОР\ИТЕРАТОР.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>ClCompile:
+         F:\Premium Studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>e:\программирование\итератор\итератор\menu.h(64): warning C4620: не найдена постфиксная форма "operator ++" для типа "Iterator<Product>"; используется префиксная форма
+                 e:\программирование\итератор\итератор\menu.h(30): при компиляции функции-члена "void menu<Product>::MainMenu(void)" класса шаблон
+                 e:\программирование\итератор\итератор\main.cpp(13): см. ссылку на создание экземпляров функции шаблон при компиляции "void menu<Product>::MainMenu(void)"
+                 e:\программирование\итератор\итератор\main.cpp(12): см. ссылку на создание экземпляров класса шаблон при компиляции "menu<Product>"
+     1>e:\программирование\итератор\итератор\menu.h(69): warning C4621: не найдена постфиксная форма "operator --" для типа "Iterator<Product>"; используется префиксная форма
+     1>e:\программирование\итератор\итератор\menu.h(90): warning C4620: не найдена постфиксная форма "operator ++" для типа "Iterator<Product>"; используется префиксная форма
+     1>e:\программирование\итератор\итератор\menu.h(105): warning C4620: не найдена постфиксная форма "operator ++" для типа "Iterator<Product>"; используется префиксная форма
+     1>e:\программирование\итератор\итератор\algorithm.h(27): warning C4620: не найдена постфиксная форма "operator ++" для типа "Iterator<Product>"; используется префиксная форма
+                 e:\программирование\итератор\итератор\algorithm.h(18): при компиляции функции-члена "void Algorithm<Product>::sort(Iterator<Product>)" класса шаблон
+                 e:\программирование\итератор\итератор\menu.h(119): см. ссылку на создание экземпляров функции шаблон при компиляции "void Algorithm<Product>::sort(Iterator<Product>)"
+                 e:\программирование\итератор\итератор\menu.h(81): см. ссылку на создание экземпляров класса шаблон при компиляции "Algorithm<Product>"
+                 e:\программирование\итератор\итератор\menu.h(30): при компиляции функции-члена "void menu<Product>::MainMenu(void)" класса шаблон
+                 e:\программирование\итератор\итератор\main.cpp(13): см. ссылку на создание экземпляров функции шаблон при компиляции "void menu<Product>::MainMenu(void)"
+     1>e:\программирование\итератор\итератор\algorithm.h(28): warning C4620: не найдена постфиксная форма "operator ++" для типа "Iterator<Product>"; используется префиксная форма
+     1>e:\программирование\итератор\итератор\algorithm.h(29): warning C4620: не найдена постфиксная форма "operator ++" для типа "Iterator<Product>"; используется префиксная форма
+     1>e:\программирование\итератор\итератор\algorithm.h(32): warning C4620: не найдена постфиксная форма "operator ++" для типа "Iterator<Product>"; используется префиксная форма
+     1>e:\программирование\итератор\итератор\algorithm.h(36): warning C4621: не найдена постфиксная форма "operator --" для типа "Iterator<Product>"; используется префиксная форма
+     1>e:\программирование\итератор\итератор\algorithm.h(42): warning C4620: не найдена постфиксная форма "operator ++" для типа "Iterator<Product>"; используется префиксная форма
+     1>e:\программирование\итератор\итератор\algorithm.h(48): warning C4620: не найдена постфиксная форма "operator ++" для типа "Iterator<Product>"; используется префиксная форма
+                 e:\программирование\итератор\итератор\algorithm.h(47): при компиляции функции-члена "void Algorithm<Product>::find(Iterator<Product>,Product &)" класса шаблон
+                 e:\программирование\итератор\итератор\menu.h(81): см. ссылку на создание экземпляров функции шаблон при компиляции "void Algorithm<Product>::find(Iterator<Product>,Product &)"
+     1>e:\программирование\итератор\итератор\iterator.h(103): warning C4715: Iterator<Product>::getPtr: значение возвращается не при всех путях выполнения
+       Link:
+         F:\Premium Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Программирование\ИТЕРАТОР\Debug\ИТЕРАТОР.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Программирование\ИТЕРАТОР\Debug\ИТЕРАТОР.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Программирование\ИТЕРАТОР\Debug\ИТЕРАТОР.lib" /MACHINE:X86 Debug\Main.obj
+         ИТЕРАТОР.vcxproj -> E:\Программирование\ИТЕРАТОР\Debug\ИТЕРАТОР.exe
+     1>Сборка проекта "e:\Программирование\ИТЕРАТОР\ИТЕРАТОР\ИТЕРАТОР.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:02.04
